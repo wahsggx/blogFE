@@ -3,7 +3,7 @@
  * @LastEditors: Wy
  * @Description: 
  * @Date: 2019-03-20 15:59:30
- * @LastEditTime: 2019-03-20 16:47:39
+ * @LastEditTime: 2019-03-20 16:53:57
  -->
 # FLOW is what?
 
@@ -22,6 +22,7 @@ just followed by **"[GET STARTED](https://flow.org/en/docs/getting-started/)"** 
 # flow-test
 this is a  test about flow
 - #### 1.install 
+
   ```javascript
   // in your project
     sudo npm install --save-dev babel-cli babel-preset-flow
