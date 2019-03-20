@@ -1,7 +1,6 @@
 {
-    "name": "my-flow-project",
-    "version": "1.0.0",
-    "devDependencies": {
-        "flow-bin": "^0.95.1"
-    }
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-flow": "^6.23.0"
+  }
 }
