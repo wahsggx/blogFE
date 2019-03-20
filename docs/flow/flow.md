@@ -3,7 +3,7 @@
  * @LastEditors: Wy
  * @Description: 
  * @Date: 2019-03-20 15:59:30
- * @LastEditTime: 2019-03-20 16:41:56
+ * @LastEditTime: 2019-03-20 16:47:39
  -->
 # FLOW is what?
 
@@ -21,49 +21,49 @@ just followed by **"[GET STARTED](https://flow.org/en/docs/getting-started/)"** 
 
 # flow-test
 this is a  test about flow
-- 1. install 
+- #### 1.install 
   ```javascript
   // in your project
     sudo npm install --save-dev babel-cli babel-preset-flow
     sudo npm instal -g flow-bin
-    // create a directory to save files writed by flow code, this step is not necessary
+  // create a directory to save files writed by flow code, this step is not necessary
     mkdir flow-test
-    // create a empty file called `.flowconfig` 
+  // create a empty file called `.flowconfig` 
     flow init
-    // create a file to write code 
+  // create a file to write code 
     vim index.js
-    // write code in index.js
+  // write code in index.js
     ...
-    // run `flow` to run your index.js
+  // run `flow` to run your index.js
   
   ``` 
-- 2. examples
+- #### 2.examples
   
   ``` javascript
   // index.js
   /* @flow */
 
   // 类型推断
-  // examples 1
+  // example 1
   function split(str) {
     return str.split(' ')
   }
   split(11)
 
   // 类型注释（常见的有数组、类和对象）
-  // examples 2
+  // example 2
   function add(x: number, y: number): number {
     return x + y
   }
   add('Hello', 11)
 
-  // examples 3
+  // example 3
   function add(x: number, y: number): number {
     return x + y
   }
   add(12, 11)
 
-  // examples 4
+  // example 4
   var arrar: Array<number | string> = [1, 2, 3]
   arrar.push('hello')
   ```
