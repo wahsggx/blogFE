@@ -3,7 +3,7 @@
  * @LastEditors: Wy
  * @Description: 
  * @Date: 2019-03-20 15:59:30
- * @LastEditTime: 2019-03-20 16:53:57
+ * @LastEditTime: 2019-03-20 16:59:35
  -->
 # FLOW is what?
 
@@ -23,19 +23,19 @@ just followed by **"[GET STARTED](https://flow.org/en/docs/getting-started/)"** 
 this is a  test about flow
 - #### 1.install 
 
-  ```javascript
-  // in your project
+  ```bash
+  # in your project
     sudo npm install --save-dev babel-cli babel-preset-flow
     sudo npm instal -g flow-bin
-  // create a directory to save files writed by flow code, this step is not necessary
+  # create a directory to save files writed by flow code, this step is not necessary
     mkdir flow-test
-  // create a empty file called `.flowconfig` 
+  # create a empty file called `.flowconfig` 
     flow init
-  // create a file to write code 
+  # create a file to write code 
     vim index.js
-  // write code in index.js
+  # write code in index.js
     ...
-  // run `flow` to run your index.js
+  # run `flow` to run your index.js
   
   ``` 
 - #### 2.examples
