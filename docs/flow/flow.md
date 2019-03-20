@@ -3,7 +3,7 @@
  * @LastEditors: Wy
  * @Description: 
  * @Date: 2019-03-20 15:59:30
- * @LastEditTime: 2019-03-20 16:59:35
+ * @LastEditTime: 2019-03-20 17:03:35
  -->
 # FLOW is what?
 
@@ -68,3 +68,4 @@ this is a  test about flow
   var arrar: Array<number | string> = [1, 2, 3]
   arrar.push('hello')
   ```
+  
