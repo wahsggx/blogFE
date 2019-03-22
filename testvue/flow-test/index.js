@@ -3,7 +3,7 @@
  * @LastEditors: Wy
  * @Description: 
  * @Date: 2019-03-20 15:42:10
- * @LastEditTime: 2019-03-20 16:43:41
+ * @LastEditTime: 2019-03-22 14:48:36
  */
 /*
 /* @flow */
@@ -29,6 +29,5 @@
 
 
 // 数组类型注释的格式是 Array<T>   T表示数组中每项的数据类型。
-var arrar: Array<number | string> = [1, 2, 3]
-arrar.push('hello')
-
+// var arrar: Array<number | string> = [1, 2, 3]
+// arrar.push('hello')
